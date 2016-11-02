@@ -1,0 +1,35 @@
+ul li.first > a{
+	background:url("../themefiles/assets/global/img/prev.png") no-repeat !important;
+}
+
+ul li.first-hidden > a{
+	background:url("../themefiles/assets/global/img/prev.png") no-repeat !important;
+	display:none;
+}
+
+ul li.previous > a{
+	background:url("../themefiles/assets/global/img/back.png") no-repeat !important;
+}
+
+ul li.previous-hidden > a{
+	background:url("../themefiles/assets/global/img/back.png") no-repeat !important;
+	display:none;
+}
+
+ul li.next > a{
+	background:url("../themefiles/assets/global/img/next.png") no-repeat !important;
+}
+
+ul li.next-hidden > a{
+	background:url("../themefiles/assets/global/img/next.png") no-repeat !important;
+	display:none;
+}
+
+ul li.last > a{
+	background:url("../themefiles/assets/global/img/f_next.png") no-repeat !important;
+}
+
+ul li.last-hidden > a{
+	background:url("../themefiles/assets/global/img/f_next.png") no-repeat !important;
+	display:none;
+}

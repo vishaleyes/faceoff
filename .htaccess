@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.faceoff.com [NC]
+RewriteRule ^(.*)$ faceoff.com/$1 [L,R=301]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+
+
+RewriteRule ^api.*$ index.php?r=api
+RewriteRule ^site.*$ index.php?r=site
+RewriteRule ^admin.*$ index.php?r=admin
